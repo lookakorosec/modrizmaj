@@ -69,8 +69,8 @@
 
 
 
-
-
+    //tko startate program
+    mojObjekt(); 
 
 
     }());// end_wrapper_"use strict" 
