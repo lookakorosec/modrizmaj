@@ -1,4 +1,4 @@
-//kaj je JavaScritp in kaj je Objekt v js in njegov prototype, in to je vse kar je za vedt! Če se mi bo kdo pametnga delal od programerjov, ker pišem vsem ljudem, vas pogodim u prah ker sem stara js Ninja!
+//kaj je JavaScritp in kaj je Objekt v js in njegov prototype, in to je vse kar je za vedt! Pišem vsem ljudem, programerji pomerte se ♥!
 //vse v JavaScriptu so objekti katerim definiramo prototype (zdej bom uporablju sam terminologijo iz JavaScripta), res je simpl.
 
 (function () {"use strict"; //use strict wrapper
@@ -11,12 +11,12 @@
     const mojObjekt = function(){ //constructor objeta, se prav nič druzga k navadn node, škatlca u katero daš not informacije
 
        
-        // navadna vsebina k bi jo rad imel u objektu(folk k se dela pametnga reče temu properity), u tem primeru navadn tekst
+        // navadna vsebina, ki bi jo rad imel u objektu, u tem primeru navadn tekst
         mesto: "Ljubljana", 
 
 
 
-        //navadna funkcija, k se doda objektu(navadnmu nodu) -> funkcija sproži neko akcijo
+        //navadna funkcija, k se doda objektu(navadnmu nodu) -> funkcija sproži neko akcijo -> kliče se je z: mojObjekt.lepPozdrav(); 
         lepPozdrav() {
 
           //tko ti u brskalniku rukne ven string (string ni nič druzga k navadn tekst), se prav neki ste nardil, da se zgodi. 
