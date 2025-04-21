@@ -64,7 +64,7 @@
     }; // tle zaprem moj objekt mojObjekt.
 
     //to je vse kar je treba vedt. To je JavaScript u bistvu, ki je prototajpni jezik.
-    //se pravi kako zdej umetno inteligenco programirat. Ja nič druzga kot da grete na stran na primer: https://huggingface.github.io/transformers.js/ , tuki vam bom dau kasnej boljše primere APijov k so simpl.
+    //se pravi kako zdej umetno inteligenco programirat. Ja nič druzga kot da grete na stran na primer: https://huggingface.github.io/transformers.js/ , tuki vam bom dau kasnej boljše primere APijov k so bl simpl.
     //pogledate kašne funkcije pa objekte majo že sprogramirane in jih uporabite(velik drugih je k majo tud vse u naprej sprogramiran, sam googlite). 
     //Se prav vse je že u naprej sprogramiran, vi sam kličete funkcije k jih rabte, rezultate spravljate v variable in nardite svoj objekt.
     //stvari mečete v objekt -> škatlico k jo delate. In dobili boste program. Defakto zadevo k bo neki delala.
@@ -80,7 +80,7 @@
 
 
     // ok in če te zdej JavaScript zanima preber sam še tole: Kako se logika programira: https://www.w3schools.com/js/js_if_else.asp
-    // in tole: in učasih boš rabu loope  https://www.w3schools.com/js/js_loop_for.asp (mootoolsi majo ful simpl oblike tega pisat z eno besedo... tko da nauš gledu debilnih i++ k ti nič nau jasn kot začetniku)
+    // in tole: in učasih boš rabu loope  https://www.w3schools.com/js/js_loop_for.asp (mootoolsi majo ful simpl oblike tega pisat z eno besedo... tko da nauš gledu debilnih i++, k ti nič nau jasn kot začetniku)
    
    
     // se prav veš da je JavaScript prototypn jezik, veš kaj je objek, varjabla, funkcija in event poslušalec ( u bistvu se u JavaScriptu čaka na evente pa z informacijo k jo dobiš neki nardiš)
