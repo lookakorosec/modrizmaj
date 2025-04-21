@@ -48,7 +48,7 @@
                   
                   //sprva tle definiram na krateko način velik varjabl/škatlic informacij -> $("socialL"); je iz MooToolsa predefinirana funkcija za 
                   //document.getElementById("Luka"); -> <div id="Luka">, <div>/element spletne strani k ima id Luka ---- sam krajš pišem če mam MooToolse 
-                  //(kup stvari mi ni treba definirat, k so jih oni, in je skoz upToDate). -> https://mootools.net/core/docs/1.6.0 (vsi primeri predefinirah funkcij, kako se velik krajš vse piše)
+                  //(kup stvari mi ni treba definirat, k so jih oni, in je skoz upToDate). -> https://mootools.net/core/docs/1.6.0 (vsi primeri predefiniranih funkcij, kako se velik krajš vse piše)
                   let e = $("gesture-text").outerText.toString()/*tle definiram informacijo k jo dobim iz elementa spletne strani <div>*/, t = $("socialD"), i = $("socialL");
 
                   //drugič tle povem kaj mi nej nardi u primeru če dobim informacijo k jo želim, se pravi na podlagi informacije sporži ali funcijo "socialD", ali funkcijo "socialL" 
