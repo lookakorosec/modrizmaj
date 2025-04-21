@@ -8,7 +8,7 @@
 
 
 
-    const mojObjekt = function(){ //constructor objeta, se prav nič druzga k navadn node, škatlca u katero daš not informacije
+    const mojObjekt = function(){ //constructor objekta, se pravi nič druzga k navadn node, škatlca u katero daš not informacije
 
        
         // navadna vsebina, ki bi jo rad imel u objektu, u tem primeru navadn tekst
@@ -38,6 +38,7 @@
       observer.observe(elTarget, objConfig);
           //spet ena varjabla, nič druzga k škatlica za informacijo
           let lastMove = 0; // to rabim za ustavit poslušalca, dostkrat pri umetni inteligenci
+          
           //moja funkcija, nič druzga kt da rečem kaj se nej zgodi
           function txtHandler() {
               //ker dobim preveč dogotkov, moram poslušalec ustavt za 0.8 sekund(pogosto pri umetni inteligenci), da mi ne pobezla vse tko. Pri "click" tega ne rabite, 
@@ -45,7 +46,7 @@
               if (Date.now() - lastMove > 800) {
                   //tuki napišem kaj se nej zgodi, k bo moj poslušalec dogotkov (event listener), poslal informacijo, če se bo kej zgodil
                   
-                  //sprva tle definiram na kratek način velik varjabl/škatlic informacij -> $("socialL"); je iz MooToolsa predefinirana funkcija za 
+                  //sprva tle definiram na krateko način velik varjabl/škatlic informacij -> $("socialL"); je iz MooToolsa predefinirana funkcija za 
                   //document.getElementById("Luka"); -> <div id="Luka">, <div>/element spletne strani k ima id Luka ---- sam krajš pišem če mam MooToolse 
                   //(kup stvari mi ni treba definirat, k so jih oni, in je skoz upToDate). -> https://mootools.net/core/docs/1.6.0 (vsi primeri predefinirah funkcij, kako se velik krajš vse piše)
                   let e = $("gesture-text").outerText.toString()/*tle definiram informacijo k jo dobim iz elementa spletne strani <div>*/, t = $("socialD"), i = $("socialL");
