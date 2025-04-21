@@ -32,7 +32,7 @@
       //let je beseda ki definera mojo škatlico za informacije, temu se reče varjabla
       let observer = new MutationObserver(txtHandler); //tle ukradem objekt ki mi ga da na razbolagko API/bibilioteka v naprej sprogramiranih miljon objektov ki mi jih nudijo iz APIjov.
       let elTarget = document.getElementById("gesture-text"); // tle na spletni strani sam že uporabim že predefinirano funkcijo k mi jo nudi JavaScript, in <div>/element is spletne u mojo škatlco.
-      let objConfig = { childList: !0, subtree: !0, attributes: !1, characterData: !1 }; // tle definerate parametre moja poslušalca, k sem ga sami ustvarl. Pri predefineranmu poslušalcu dogotkov tega ne rabte.
+      let objConfig = { childList: !0, subtree: !0, attributes: !1, characterData: !1 }; // tle definerate parametre moja poslušalca, k sem ga sam ustvaru. Pri predefineranmu poslušalcu dogotkov tega ne rabte.
   
       //observe je predefineran v js, pošljušalec dogotkov. Teh posljšalcev imate predefiniranih malo morje. Kot je click, ki posluša, če kdo klikne z miško na neki itd -> google.
       observer.observe(elTarget, objConfig);
