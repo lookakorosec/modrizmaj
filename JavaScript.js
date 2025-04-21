@@ -80,5 +80,9 @@
 
 
     // ok in öe te zdej JavaScript zanima preber sam üe tole: Kako se logika programira: https://www.w3schools.com/js/js_if_else.asp
-    // in tole: in uöasih boü rabu loope  https://www.w3schools.com/js/js_loop_for.asp
-    // in to je vse :). ♥♥♥
+    // in tole: in uöasih boü rabu loope  https://www.w3schools.com/js/js_loop_for.asp (mootoolsi majo ful simpl oblike tega pisat z eno besedo... tko da nauš gledu debilnih i++ k ti nič nau jasn kot začetniku)
+   
+   
+    // se prav veš da je JavaScript prototypn jezik, veš kaj je objek, varjabla, funkcija in event poslušalec ( u bistvu se u JavaScriptu u čaka na evente pa z informacijo k jo dobiš neki nardi)
+    // https://www.w3schools.com/js/ je pa mesto kjer lahko vak k ga zanima začne, po tem kar sm mu tuki napisu in se nau zgubu.
+    // in to je vse :). ♥♥♥  -> linki mi kaj boš naredu u umetni inteligenci, da ti stisnem /hug
