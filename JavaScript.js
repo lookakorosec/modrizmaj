@@ -16,7 +16,7 @@
 
 
 
-        //navadna funkcija, k se doda objektu(navadnmu nodu) -> funkcija sproži neko akcijo -> kliče se je z: mojObjekt.lepPozdrav(); 
+        //navadna funkcija, k se doda objektu(navadnmu nodu) -> funkcija sproži neko akcijo -> kliče se jo z: mojObjekt.lepPozdrav(); 
         lepPozdrav() {
 
           //tko ti u brskalniku rukne ven string (string ni nič druzga k navadn tekst), se prav neki ste nardil, da se zgodi. 
