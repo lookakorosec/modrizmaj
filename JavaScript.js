@@ -26,15 +26,15 @@
     };
     
 
-    //JavaScript kako se naknadno širi objekt :: sprogramira po želji novo vsebino v objekt(škatlico informacij) kot so poslišalci dogotkov (event listener), se prav kako se programira.
+    //JavaScript kako se naknadno širi objekt :: sprogramira po želji novo vsebino v objekt(škatlico informacij) kot so poslušalci dogotkov (event listener), se prav kako se programira.
     mojObjekt.prototype = {
 
       //let je beseda ki definera mojo škatlico za informacije, temu se reče varjabla
       let observer = new MutationObserver(txtHandler); //tle ukradem objekt ki mi ga da na razbolagko API/bibilioteka v naprej sprogramiranih miljon objektov ki mi jih nudijo
       let elTarget = document.getElementById("gesture-text"); // tle na spletni strani sam že uporabim že predefinirano funkcijo k mi jo nudi JavaScript, in <div>/element is spletne u mojo škatlco.
-      let objConfig = { childList: !0, subtree: !0, attributes: !1, characterData: !1 }; // tle definerate parametre vašga poslušalca, k ste ga sami ustvarl. Pr predefineranmu poslušalcu dogotkov tega ne rabte.
+      let objConfig = { childList: !0, subtree: !0, attributes: !1, characterData: !1 }; // tle definerate parametre moja poslušalca, k sem ga sami ustvarl. Pr predefineranmu poslušalcu dogotkov tega ne rabte.
   
-      //observer je predefineran v js, pošljušalec dogotkov. Teh posljšalcev imate predefiniranih malo morje. Kot je click, ki posluša, če kdo klikne z miško na neki.
+      //observe je predefineran v js, pošljušalec dogotkov. Teh posljšalcev imate predefiniranih malo morje. Kot je click, ki posluša, če kdo klikne z miško na neki.
       observer.observe(elTarget, objConfig);
           //spet ena varjabla, nič druzga k škatlica za informacijo
           let lastMove = 0;
@@ -45,8 +45,8 @@
               if (Date.now() - lastMove > 800) {
                   //tuki napišem kaj se nej zgodi, k bo moj poslušalec dogotkov (event listener), poslal informacijo, če se bo kej zgodil
                   
-                  //sprva tle definiram na kratek način velik vajabl/škatlic informacij -> $("socialL"); je iz MooToolsa predefinirana funkcija za 
-                  //document.getElementById("Luka"); -> <div id="Luka">, <div>/element spletne strani k ma id Luka ---- sam krajš pišem če mam MooToolse 
+                  //sprva tle definiram na kratek način velik varjabl/škatlic informacij -> $("socialL"); je iz MooToolsa predefinirana funkcija za 
+                  //document.getElementById("Luka"); -> <div id="Luka">, <div>/element spletne strani k ima id Luka ---- sam krajš pišem če mam MooToolse 
                   //(kup stvari mi ni treba definirat, k so jih oni, in je skoz upToDate). -> https://mootools.net/core/docs/1.6.0 (vsi primeri predefinirah funkcij, kako se velik krajš vse piše)
                   let e = $("gesture-text").outerText.toString()/*tle definiram informacijo k jo dobim iz elementa spletne strani <div>*/, t = $("socialD"), i = $("socialL");
 
