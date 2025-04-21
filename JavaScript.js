@@ -76,3 +76,9 @@
 
 
     }());// end_wrapper_"use strict" 
+
+
+
+    // ok in öe te zdej JavaScript zanima preber sam üe tole: Kako se logika programira: https://www.w3schools.com/js/js_if_else.asp
+    // in tole: in uöasih boü rabu loope  https://www.w3schools.com/js/js_loop_for.asp
+    // in to je vse :). ♥♥♥
