@@ -63,7 +63,7 @@
     }; // tle zaprem moj objekt mojObjekt.
 
     //to je vse kar je treba vedt. To je JavaScript u bistvu, ki je prototajpni jezik.
-    //se pravi kako zdej umetno inteligenco programirat. Ja nič druzga kot da grete na stran na primer: https://js.tensorflow.org/api/latest/ , tuki vam bom dau kasnej boljše primere APijov k so simpl.
+    //se pravi kako zdej umetno inteligenco programirat. Ja nič druzga kot da grete na stran na primer: https://huggingface.github.io/transformers.js/ , tuki vam bom dau kasnej boljše primere APijov k so simpl.
     //pogledate kašne funkcije pa objekte majo že sprogramirane in jih uporabite(velik drugih je k majo tud vse u naprej sprogramiran, sam googlite). 
     //Se prav vse je že u naprej sprogramiran, vi sam kličete funkcije k jih rabte, rezultate spravljate v variable in nardite svoj objekt.
     //stvari mečete v objekt -> škatlico k jo delate. In dobili boste program. Defakto zadevo k bo neki delala.
