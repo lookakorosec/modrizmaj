@@ -55,18 +55,18 @@
                   "right" === e /*e sem definiru vrstico višji, je moja varjabla*/ ? t.fireEvent("click", "socialD") : "left" === e && i.fireEvent("click", "socialL"), 
                 
 
-                //tle se ustau moj stopper za preveč poslušanja  
+                //tle sem ustau moj stopper za preveč poslušanja  
                 (lastMove = Date.now());
                 //tle se zapre mojo funkcijo
               }
         }
     }; // tle zaprem moj objekt mojObjekt.
 
-    //to je vse kar je treba vedt. To je JavaScript, ki je prototajpni jezik, simpl k pimpl.
-    //se pravi kako zdej umetno inteligenco programirat. Ja nič druzga kot da grete na stran na primer: https://js.tensorflow.org/api/latest/ , 
+    //to je vse kar je treba vedt. To je JavaScript u bistvu, ki je prototajpni jezik.
+    //se pravi kako zdej umetno inteligenco programirat. Ja nič druzga kot da grete na stran na primer: https://js.tensorflow.org/api/latest/ , tuki vam bom dau kasnej boljše primere APijov k so simpl.
     //pogledate kašne funkcije pa objekte majo že sprogramirane in jih uporabite(velik drugih je k majo tud vse u naprej sprogramiran, sam googlite). 
     //Se prav vse je že u naprej sprogramiran, vi sam kličete funkcije k jih rabte, rezultate spravljate v variable in nardite svoj objekt.
-    //stvari mečete v objekt/škatlico k ga delate. In dobili boste program. Defakto zadevo k bo neki delala.
+    //stvari mečete v objekt -> škatlico k jo delate. In dobili boste program. Defakto zadevo k bo neki delala.
 
 
 
