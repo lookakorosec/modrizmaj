@@ -26,7 +26,7 @@
     };
     
 
-    //JavaScript kako se naknadno širi objekt :: sprogramira po želji novo vsebino v objekt(škatlico informacij) kot so poslušalci dogotkov (event listener), se prav kako se programira.
+    //JavaScript kako se naknadno širi objekt :: sprogramira po želji novo vsebino v objekt(škatlico informacij) kot so poslušalci dogotkov (event listener), funkcije itd., se prav kako se programira.
     mojObjekt.prototype = {
 
       //let je beseda ki definera mojo škatlico za informacije, temu se reče varjabla
