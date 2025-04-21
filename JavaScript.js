@@ -1,4 +1,4 @@
-//kaj je JavaScritp in kaj je Objekt v js in njegov prototype, in to je vse kar je za vedt!
+//kaj je JavaScritp in kaj je Objekt v js in njegov prototype, in to je vse kar je za vedt! Če se mi bo kdo pametnga delal od programerjov, ker pišem vsem ljudem, vas pogodim u prah ker sem stara js Ninja!
 //vse v JavaScriptu so objekti katerim definiramo prototype (zdej bom uporablju sam terminologijo iz JavaScripta), res je simpl.
 
 (function () {"use strict"; //use strict wrapper
